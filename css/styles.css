@@ -116,6 +116,64 @@ img {
     max-width: 264px;
 }
 
+.footer-container-subscribe {
+    margin-left: 80px;
+}
+.footer-subscribe-title {
+    margin-bottom: 16px;
+}
+
+.footer-subscribe-form {
+    display: flex;
+    gap: 24px;
+}
+
+.subscribe-form-input {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: #ffffff;
+}
+
+.subscribe-form-input::placeholder {
+    color: #ffffff;
+}
+
+.subscribe-button {
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--color-primary-brand);
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus,
+.subscribe-button:active {
+    background-color: var(--color-pressed-state);
+}
+
+.subscribe-button-icon {
+    margin-left: 16px;
+}
+
 .logo {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -686,7 +744,7 @@ img {
 }
 
 .modal-checkbox:checked + label .modal-terms-checkbox {
-    background-color: var(--color-primary-brand);
+    background-color: var(--color-pressed-state);
     border: none;
     fill: var(--color-light);
 }
