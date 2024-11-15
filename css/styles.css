@@ -596,6 +596,7 @@ img {
 .modal-title {
     color: var(--color-dark);
     margin-bottom: 16px;
+    text-align: center;
 }
 
 .modal-form {
@@ -684,18 +685,12 @@ img {
     fill: transparent;
 }
 
-.modal-checkbox-icon {
-
-}
-
 .modal-checkbox:checked + label .modal-terms-checkbox {
     background-color: var(--color-primary-brand);
     border: none;
-}
-
-.modal-checkbox:checked + label .modal-checkbox-icon {
     fill: var(--color-light);
 }
+
 
 .modal-button-submit {
     display: block;
