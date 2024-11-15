@@ -476,7 +476,7 @@ img {
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 12px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.04em;
     line-height: 1.17;
 }
 
@@ -669,7 +669,7 @@ img {
 }
 
 .modal-checkbox {
-
+    display: none;
 }
 
 .modal-terms-checkbox {
@@ -688,9 +688,12 @@ img {
 
 }
 
-.modal-checkbox:checked + .modal-terms-checkbox {
+.modal-checkbox:checked + label .modal-terms-checkbox {
     background-color: var(--color-primary-brand);
     border: none;
+}
+
+.modal-checkbox:checked + label .modal-checkbox-icon {
     fill: var(--color-light);
 }
 
